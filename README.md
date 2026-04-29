@@ -1,16 +1,41 @@
-# React + Vite
+# 📚 StudyMe AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StudyMe AI is a web-based AI study assistant that helps students generate personalized study plans, summarize notes, and practice with dynamic questions and answers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🧠 AI-generated study plans based on user input  
+- 📝 Automatic note summarization  
+- ❓ Practice questions with generated answers  
+- 📊 Weakness detection using quiz score + confidence  
+- 🔍 Explainable AI (shows reasoning behind outputs)  
+- ⚖️ Responsible AI (confidence + limitations included)  
+- 🎨 Interactive dashboard with animations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)  
+- **Language:** JavaScript  
+- **Styling:** CSS  
+- **AI Integration:** Gemini API (Google AI)  
+- **Version Control:** Git + GitHub  
+
+---
+
+## 📸 How It Works
+
+1. Enter your:
+   - Study notes  
+   - Quiz score  
+   - Confidence level  
+
+2. The system will:
+   - Summarize your notes  
+   - Extract key concepts  
+   - Generate a 4-day study plan  
+   - Provide practice questions + answers  
+   - Explain recommendations  
