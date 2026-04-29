@@ -157,15 +157,15 @@ export default function App() {
   return (
     <div className="app">
       <header className="navbar">
-        <h2>StudySmart AI</h2>
-        <span>Responsible AI Study Assistant</span>
+        <h2>StudyMe AI</h2>
+        <span>AI-Powered Study Assistant</span>
       </header>
 
       <section className="hero">
         <div>
-          <h1>Build a smarter study plan in seconds.</h1>
+          <h1>Study smarter with StudyMe AI.</h1>
           <p>
-            Enter your notes, quiz score, and confidence level. StudySmart AI
+            Enter your notes, quiz score, and confidence level. StudyMe AI
             creates a personalized study plan with questions, answers,
             confidence levels, and explainable reasoning.
           </p>
@@ -226,7 +226,7 @@ export default function App() {
 
           {!result ? (
             <div className="empty-state">
-              Your AI study plan will appear here after you submit your notes.
+              Your StudyMe AI plan will appear here after you submit your notes.
             </div>
           ) : (
             <>
@@ -313,7 +313,7 @@ export default function App() {
       </section>
 
       <footer className="footer">
-        <strong>Responsible AI Notice:</strong> This system provides study
+        <strong>StudyMe AI Notice:</strong> This system provides study
         recommendations based on user input. It may not always be accurate and
         should be used as a supplemental study tool. Students should verify
         important information with course materials.
@@ -321,3 +321,4 @@ export default function App() {
     </div>
   );
 }
+
